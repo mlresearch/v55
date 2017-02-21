@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>SSH (Sketch, Shingle, &amp; Hash) for Indexing Massive-Scale Time Series | TSW 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="SSH (Sketch, Shingle, &amp; Hash) for Indexing Massive-Scale Time Series">
+
+  <meta name="citation_author" content="Luo, Chen">
+
+  <meta name="citation_author" content="Shrivastava, Anshumali">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="NIPS 2016 Time Series Workshop">
+<meta name="citation_firstpage" content="38">
+<meta name="citation_lastpage" content="58">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v55/luo16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>SSH (Sketch, Shingle, &amp; Hash) for Indexing Massive-Scale Time Series</h1>
+
+	<div id="authors">
+	
+		Chen Luo,
+	
+		Anshumali Shrivastava
+	<br />
+	</div>
+	<div id="info">
+		NIPS 2016 Time Series Workshop,
+		pp. 38–58, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		Similarity search on time series is a frequent operation in large-scale data-driven applications. Sophisticated similarity measures are standard for time series matching, as they are usually misaligned. Dynamic Time Warping or DTW is the most widely used similarity measure for time series because it combines alignment and matching at the same time. However, the alignment makes DTW slow. To speed up the expensive similarity search with DTW, branch and bound based pruning strategies are adopted. However, branch and bound based pruning are only useful for very short queries (low dimensional time series), and the bounds are quite weak for longer queries. Due to the loose bounds branch and bound pruning strategy boils down to a brute-force search. To circumvent this issue, we design SSH (Sketch, Shingle, &amp; Hashing), an efficient and approximate hashing scheme which is much faster than the state-of-the-art branch and bound searching technique: the UCR suite. SSH uses a novel combination of sketching, shingling and hashing techniques to produce (probabilistic) indexes which align (near perfectly) with DTW similarity measure. The generated indexes are then used to create hash buckets for sub-linear search. Our results show that SSH is very effective for longer time sequence and prunes around 95% candidates, leading to the massive speedup in search with DTW. Empirical results on two large-scale benchmark time series data show that our proposed method can be around 20 times faster than the state-of-the-art package (UCR suite) without any significant loss in accuracy.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="luo16.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

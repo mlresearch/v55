@@ -1,0 +1,70 @@
+---
+booktitle: Proceedings of the Time Series Workshop at NIPS 2016
+shortname: TSW
+year: '2016'
+start: 2016-12-09
+end: 2016-12-09
+published: 2017-02-16
+volume: 55
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: tsw16
+month: 0
+abstract: ''
+tex_title: 
+title: Proceedings of Machine Learning Research
+cycles: false
+editor:
+- given: Oren
+  family: Anava
+- given: Azadeh
+  family: Khaleghi
+- given: Marco
+  family: Cuturi
+- given: Vitaly
+  family: Kuznetsov
+- given: Alexander
+  family: Rakhlin
+description: |
+  Proceedings of the Time Series Workshop at NIPS 2016 on 09 December 2016
+
+  Published as Volume 55 by the Proceedings of Machine Learning Research on 16 February 2017.
+
+  Volume Edited by:
+    Oren Anava
+    Azadeh Khaleghi
+    Marco Cuturi
+    Vitaly Kuznetsov
+    Alexander Rakhlin
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 09 Dec
+url: http://proceedings.mlr.press
+baseurl: "/v55"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v55
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: NIPS 2016 Time Series Workshop
+  url: https://sites.google.com/site/nipsts2016/
+  location: 
+  dates:
+  - 2016-12-09
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v55.bib

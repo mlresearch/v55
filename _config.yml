@@ -26,7 +26,8 @@ editor:
 - given: Alexander
   family: Rakhlin
 description: |
-  Proceedings of the Time Series Workshop at NIPS 2016 on 09 December 2016
+  Proceedings of the Time Series Workshop at NIPS 2016
+    Held in Barcelona, Spain on 09 December 2016
 
   Published as Volume 55 by the Proceedings of Machine Learning Research on 16 February 2017.
 
@@ -60,7 +61,7 @@ email: ''
 conference:
   name: NIPS 2016 Time Series Workshop
   url: https://sites.google.com/site/nipsts2016/
-  location: 
+  location: Barcelona, Spain
   dates:
   - 2016-12-09
 analytics:

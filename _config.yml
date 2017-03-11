@@ -10,9 +10,6 @@ layout: proceedings
 series: Proceedings of Machine Learning Research
 id: tsw16
 month: 0
-abstract: ''
-tex_title: 
-title: Proceedings of Machine Learning Research
 cycles: false
 editor:
 - given: Oren
@@ -25,6 +22,7 @@ editor:
   family: Kuznetsov
 - given: Alexander
   family: Rakhlin
+title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the Time Series Workshop at NIPS 2016
     Held in Barcelona, Spain on 09 December 2016
@@ -44,7 +42,7 @@ description: |
 date_str: 09 Dec
 url: http://proceedings.mlr.press
 baseurl: "/v55"
-twitter_username: mlresearch
+twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
@@ -56,6 +54,7 @@ display:
     bibtex: true
     endnote: true
     apa: true
+    ris: true
   comments: false
 email: ''
 conference:
@@ -69,3 +68,4 @@ analytics:
     tracking_id: UA-92432422-1
 # Site settings
 # Auto generated from v55.bib
+---

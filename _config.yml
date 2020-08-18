@@ -1,5 +1,6 @@
 ---
 booktitle: Proceedings of the Time Series Workshop at NIPS 2016
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 shortname: TSW
 year: '2016'
 start: 2016-12-09
@@ -49,6 +50,10 @@ baseurl: "/v55"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
 style: pmlr
 plugins:
 - jekyll-feed
@@ -76,6 +81,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
-orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 # Site settings
 # Original source:  /Users/neil/mlresearch/bibtex.bib
